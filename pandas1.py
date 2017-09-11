@@ -6,5 +6,3 @@ sales_states = {'Day' : [1,2,3,4,5,6],
 
 df = pd.DataFrame(sales_states).set_index('Day')
 print(df)
-
-
